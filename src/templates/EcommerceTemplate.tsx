@@ -60,6 +60,12 @@ export const EcommerceTemplate = ({
                 COLLECTIONS
               </Link>
               <Link 
+                to="/about" 
+                className="text-sm tracking-wide hover:text-muted-foreground transition-colors"
+              >
+                ABOUT
+              </Link>
+              <Link 
                 to="/blog" 
                 className="text-sm tracking-wide hover:text-muted-foreground transition-colors"
               >
@@ -141,6 +147,9 @@ export const EcommerceTemplate = ({
           <div>
             <h3 className="editorial-subheading text-white mb-4">Help</h3>
             <div className="space-y-3">
+              <Link to="/about" className="block text-white/70 hover:text-white transition-colors text-sm">
+                About Us
+              </Link>
               <Link to="/" className="block text-white/70 hover:text-white transition-colors text-sm">
                 Size Guide
               </Link>
